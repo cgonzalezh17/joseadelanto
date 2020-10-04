@@ -806,11 +806,83 @@ main{
     background-attachment: fixed;
     padding-bottom: 100px;
 }
+@media screen and (max-width: 1100px) {
+    .cardtspro{
+        flex-direction: column;
+    }
+    .cartd {
+        width: 100%;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        margin-bottom: 15px;
+    }
+    
+
+}
+@media screen and (max-width: 1000px) {
+
+    .rating{
+        display: block;
+    }
+    
+
+}
+
 @media screen and (max-width: 900px) {
 
     .form-container{
         width: 80%;
     }
+    .contactanos{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contacto-info{
+        margin: 0;
+    }
+
+}
+@media screen and (max-width: 950px) {
+
+    .cardst{
+        flex-direction: column;
+    }
+    .cardstinfo{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .cardtspro {
+        width: 90%;
+        margin: 0 auto;
+    }
+        
+}
+@media screen and (max-width: 800px) {
+
+    .listpromotion{
+        width: 100% !important;
+    }
+    .listpromotios{
+        width: 90% !important;
+        padding-bottom: 0;
+    }
+    .content-list{
+        flex-direction: column;
+    }
+    .tope{
+        padding-top:0 ;
+        padding-bottom: 20px;
+    }
+    .categories{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .category{
+        border-right: 0;
+        border-bottom: 1px solid #f1f1f1;
+        margin: 0 auto;
+    }
+    
 
 }
 @media screen and (max-width: 700px) {
@@ -818,9 +890,34 @@ main{
     .vcontainer{
         width: 45%;
     }
-    .rating{
-        display: block;
+    .pasos{
+        flex-direction: column;
     }
+    .paso{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+
+}
+@media screen and (max-width: 660px) {
+
+    .qp{
+        width: 90%;
+    }
+    .menu-containerp{
+        flex-direction: column;
+    }
+    .titulop{
+        width: 90%;
+    }
+    .contact-form{
+        margin-bottom: 10px;
+    }
+    .vcontainer{
+        width: 90%;
+    }
+    
 
 }
 @media screen and (max-width: 560px) {
@@ -829,7 +926,7 @@ main{
         display: block;
     }
     header .logo img{
-        width: 35%;
+        
         margin: 0 auto;
         margin-bottom: 10px;
     }
@@ -842,6 +939,20 @@ main{
         flex-direction: column;
         text-align: center;
     }
+    .cardstinfo{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .cardtspro {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .titulopromo{
+        text-align: center;
+       
+     padding-left: 0px;
+    }
+   
 
 }
 @media screen and (max-width: 400px) {
